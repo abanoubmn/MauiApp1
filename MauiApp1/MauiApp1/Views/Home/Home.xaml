@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:MauiApp1.ViewModels"
+             x:Class="MauiApp1.Views.Home.Home"
+             Title="Home"
+             x:DataType="viewmodels:HomeViewModel">
+    <VerticalStackLayout>
+        <Label 
+            Text="{Binding Text}"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
