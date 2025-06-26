@@ -12,7 +12,9 @@
     Navigated="Shell_Navigated"
     Shell.TabBarBackgroundColor="{StaticResource TabBarBgColor}"
     Shell.UnselectedColor="{StaticResource TabBarTextColor}"
-    Shell.TabBarUnselectedColor="{StaticResource TabBarTextColor}">
+    Shell.TabBarUnselectedColor="{StaticResource TabBarTextColor}"
+    Shell.TabBarForegroundColor="{StaticResource TabBarSelectedItemColor}"
+    Shell.TabBarTitleColor="{StaticResource TabBarSelectedItemColor}">
 
     <TabBar>
         <Tab Title="Home"
