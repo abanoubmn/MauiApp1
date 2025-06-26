@@ -1,0 +1,810 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Styles.PepeStyle">
+
+
+    <x:Boolean x:Key="IsSystemUsingSales">true</x:Boolean>
+
+    <Color x:Key="FreeProductTextColor">#3DC45B</Color>
+    <x:Boolean x:Key="UseOultlineSignInButton">true</x:Boolean>
+    <x:Boolean x:Key="UseNormalSignInButton">false</x:Boolean>
+    <Color x:Key="SpecialBackgroundColor">#fff</Color>
+    <x:Int32 x:Key="XBtnnCornerRadius">5</x:Int32>
+    <x:Double x:Key="XButtonMainHeight">50</x:Double>
+    <x:Double x:Key="XButtonSmHeight">55</x:Double>
+    <x:Int32 x:Key="XButtonFramSpan">3</x:Int32>
+    <x:Boolean x:Key="IsBtnsHasShadow">False</x:Boolean>
+    <Color x:Key="XBtnsShadowColor">#BC1574</Color>
+    <Color x:Key="XBtnsShadowColorInsidePages">#5EB7C6</Color>
+
+    <Color x:Key="SpecialFormatTextAtMessageEndColor">#676c73</Color>
+
+    <x:Double x:Key="HeaderButtonDimension">40</x:Double>
+    <Color x:Key="HeaderButtonBorderColor">Transparent</Color>
+    <x:Int32 x:Key="HeaderBtnCornerRadius">0</x:Int32>
+    <x:Int32 x:Key="HeaderBtnItemWidth">40</x:Int32>
+
+    <Color x:Key="SignInSignOutButtonBackgroundColor"></Color>
+    <Color x:Key="SignInSignOutButtonBorderColor"></Color>
+
+
+    <Color x:Key="SeperationColor">#85898f</Color>
+    <x:Boolean x:Key="DoubleSeperationBar">False</x:Boolean>
+
+    <x:Double x:Key="XSelectionSpaciingValue">10</x:Double>
+    <x:Boolean x:Key="XSelectionFrame_IsClippedToBounds">False</x:Boolean>
+    <Color x:Key="XSelectionFrame_BorderColor">Transparent</Color>
+    <Color x:Key="XSelectionFrame_BGColor">Transparent</Color>
+    <x:Int32 x:Key="XSelectionFrame_BorderRadius">0</x:Int32>
+    <x:Double x:Key="XSelectionItem_Padding">15</x:Double>
+    <x:Int32 x:Key="XSelectionItem_CornerRadius">3</x:Int32>
+    <x:Int32 x:Key="XSelectionItem_BorderThickness">2</x:Int32>
+
+    <x:Boolean x:Key="XSelectionItem_SingleItemHasShadow">False</x:Boolean>
+    <x:Int32 x:Key="XSelectionItem_FramSpan">3</x:Int32>
+
+    <Color x:Key="ProductItemBackgroundColor">White</Color>
+    <x:Int32 x:Key="ProductItemHeight">160</x:Int32>
+    <x:Boolean x:Key="IsProductItemHasShadow">False</x:Boolean>
+    <x:Int32 x:Key="ProductItemmSpan">3</x:Int32>
+    <Color x:Key="ProductItemmBorderColor">#BC1574</Color>
+    <x:Boolean x:Key="IsProductItemIsClippedToBounds">False</x:Boolean>
+    <x:Int32 x:Key="ProductItemIsBorderThickness">0</x:Int32>
+    <x:Int32 x:Key="ProductItemCornerRadius">0</x:Int32>
+    <x:Int32 x:Key="ProductItemPriceFontSize">15</x:Int32>
+    <x:Int32 x:Key="ProductItemTitleFontSize">15</x:Int32>
+
+    <x:Boolean x:Key="IsProductDetailsInfoIconImages">False</x:Boolean>
+    <x:Boolean x:Key="IsProductDetailsInfoIconFont">True</x:Boolean>
+    <!--  Needed When Using Images In Product Details Info Icons  -->
+    <!--<x:String x:Key="NutritionInfoImage">nutritionInfo.png</x:String>
+<x:String x:Key="AllergenInfoImage">allergenInfo.png</x:String>-->
+
+    <Color x:Key="DialogPopupBgColor">#c42518</Color>
+
+    <x:Boolean x:Key="IsLocationIconImmage">False</x:Boolean>
+
+    <x:Boolean x:Key="ShowHomePageLoyalityIcon">False</x:Boolean>
+
+    <x:String x:Key="VideoPath" />
+    <x:String x:Key="SplashVideoPath">Videos/splashVideo.mp4</x:String>
+    <x:String x:Key="ErrorPlaceHolder">error_place_holder.png</x:String>
+    <x:String x:Key="LoaderPlaceHolder">loader.png</x:String>
+    <x:String x:Key="BaseHeaderImage">headerLogo.png</x:String>
+    <Style x:Key="St_BaseHeaderImage" TargetType="Image">
+        <Setter Property="HeightRequest" Value="50"/>
+    </Style>
+    <GridLength x:Key="IconColumnWidth">5*</GridLength>
+    <x:Boolean x:Key="HasProfilePicture">False</x:Boolean>
+
+    <Color x:Key="LoadingIndicatorColor">White</Color>
+
+
+    <Color x:Key="FirstColor">#c42518</Color>
+    <Color x:Key="SecondColor">#f5d433</Color>
+    <Color x:Key="ThirdColor">#ffffff</Color>
+    <Color x:Key="FourthColor">#ffffff</Color>
+    <Color x:Key="FifthColor">#85898f</Color>
+    <Color x:Key="SixthColor">#c42518</Color>
+    <Color x:Key="SeventhColor">#391a1b</Color>
+    <Color x:Key="EighthColor">#fbe7ea</Color>
+    <Color x:Key="SocialMediaMessageTextColor">#f5d433</Color>
+    <Color x:Key="AllergyPopup_textColor">#000000</Color>
+    <Color x:Key="MyOrderBorderColor">DarkRed</Color>
+    <!--  DialogFooterBtnBackgroundColor  -->
+    <Color x:Key="DialogFooterBtnBGColor">#f5d433</Color>
+    <Color x:Key="ProfileItemTitleColor">#c42518</Color>
+
+    <Color x:Key="VoucherListPopupBackgroundColor">#c42518</Color>
+    <Color x:Key="VoucherListItemTextColor">#fff</Color>
+
+    <Color x:Key="PickerTextColor">#3b3b3b</Color>
+    <Color x:Key="PickerTitleColor">#3b3b3b</Color>
+
+    <Color x:Key="HomeListItemBackgroundColor">#f5d433</Color>
+    <Color x:Key="HomeListItemTextColor">#c42518</Color>
+
+    <Color x:Key="CategoryListItemButton">#f5d433</Color>
+    <Color x:Key="NavBarTitleTextColor">#ffffff</Color>
+    <Color x:Key="NavBarIconItemTextColor">#ffffff</Color>
+
+    <Color x:Key="LocationSearchButtonBackgroundColor">#f5d433</Color>
+    <Color x:Key="LocationListBackgroundColor">#ffffff</Color>
+    <Color x:Key="LocationListItemBackgroundColor">#ffffff</Color>
+    <Color x:Key="LocationListItemTextColor">#c42518</Color>
+    <Color x:Key="LocationListItemBorderColor">#c42518</Color>
+    <Color x:Key="LocationListItemBottomBorderColor">#85898f</Color>
+    <Color x:Key="ProductsListBackgroundColor">#ffffff</Color>
+    <Color x:Key="ProductsDetailsBackgroundColor">#ffffff</Color>
+    <Color x:Key="ProfilePagePhotoBorderColor">#f5d433</Color>
+
+    <!--  LocationTitleText  -->
+    <Color x:Key="LocationTitleTextColor">#c42518</Color>
+
+    <!--  SoldOutTextColor  -->
+    <Color x:Key="SoldOutTextColor">#c42518</Color>
+    <Color x:Key="SoldOutBorderColor">#ffffff</Color>
+
+    <!--  Rating Fill Star Color  -->
+    <Color x:Key="RatingFillStarColor">#f5d433</Color>
+    <Color x:Key="FeedbackPopUpBackGroundColor">#c42518</Color>
+
+
+    <Color x:Key="ProfileNameColor">#791F1A</Color>
+    <Color x:Key="LogoutColor">#c42518</Color>
+    <Color x:Key="ProductTitleTextColor">#791f1a</Color>
+    <Color x:Key="RecommendedProductTitleTextColor">#c42518</Color>
+    <Color x:Key="AccordionTitleTextColor">#391a1b</Color>
+    <Color x:Key="LocationAddressTextColor">#391a1b</Color>
+    <Color x:Key="LocationDetailsIconColorInBag">#791f1a</Color>
+    <Color x:Key="SummaryItemTitleTextColor">#791f1a</Color>
+    <Color x:Key="EntryLabelTextColor">#8f201d</Color>
+    <Color x:Key="ForgerPasswordTextColor">#85898f</Color>
+    <Color x:Key="OutlineButtonMainTextColor">#c42518</Color>
+    <Color x:Key="OutlineButtonBackgroundColor">#f5d433</Color>
+    <Color x:Key="InputBackgroundColor">#efefef</Color>
+    <x:Int16 x:Key="InputBorderThickness">1</x:Int16>
+    <x:Int16 x:Key="PageHeadingFontSize">19</x:Int16>
+    <Color x:Key="OrderNotesBgColor">transparent</Color>
+    <Color x:Key="ProfilePageBGColor">transparent</Color>
+    <Color x:Key="ScrollViewColor">#C42518</Color>
+    <Color x:Key="TermsColor">#C42518</Color>
+    <Color x:Key="UpSellingBGColor">#fbf5f5</Color>
+
+
+    <Color x:Key="XSelectionIdealBackgroundColor">#ffffff</Color>
+    <Color x:Key="XSelectionCheckedBackgroundColor">#ffffff</Color>
+    <Color x:Key="XSelectionIdealBorderColor">#dbdbdb</Color>
+    <Color x:Key="XSelectionCheckedBorderColor">#c42518</Color>
+
+
+    <!--  XtipControl  Start  -->
+    <Color x:Key="XtipControl_BorderColor">#e3dee4</Color>
+    <Color x:Key="XtipControl_BgColor">#ffffff</Color>
+    <Color x:Key="XtipControl_ActiveBgColor">#e3dee4</Color>
+    <Color x:Key="XtipControl_TextColor">#000</Color>
+    <Color x:Key="XtipControl_ActiveTextColor">#000</Color>
+
+    <Color x:Key="XtipControl_HeaderColor">#791f1a</Color>
+    <Color x:Key="XtipContro_QuantityBtnColor">#c42518</Color>
+    <Color x:Key="XtipContro_QuantityDisableBtnColor">#dbdbdb</Color>
+    <!--  XtipControl End  -->
+
+    
+    <Style x:Key="XSelectionGroupStateMsg" TargetType="Label">
+        <Setter Property="TextColor" Value="#c42518" />
+        <Setter Property="FontSize" Value="16" />
+    </Style>
+
+
+
+
+    <Color x:Key="XSelectionQuantityBtn">#c42518</Color>
+    <Color x:Key="XSelectionQuantityLabelColor">#85898f</Color>
+    <Color x:Key="XSelectionQuantityDisableBtn">#dbdbdb</Color>
+
+    <Color x:Key="XSelectionIdealIconTextColor">#c42518</Color>
+    <Color x:Key="XSelectionCheckedIconTextColor">#c42518</Color>
+
+    <Color x:Key="XSelectionIdealLabelTextColor">#c42518</Color>
+    <Color x:Key="XSelectionCheckedLabelTextColor">#c42518</Color>
+
+    <Color x:Key="XSelectionIdealCaloriesLabelTextColor">#85898f</Color>
+    <Color x:Key="XSelectionCheckedCaloriesLabelTextColor">#85898f</Color>
+
+    <Color x:Key="XSelectionIdealPriceLabelTextColor">#85898f</Color>
+    <Color x:Key="XSelectionCheckedPriceLabelTextColor">#85898f</Color>
+
+
+
+    <!--  XSelectionGroup End  -->
+
+    <Color x:Key="BaseBgColor">#ffffff</Color>
+    <Color x:Key="SubBgColor">#ffffff</Color>
+    <Color x:Key="BorderColor">#c2c4c7</Color>
+    <Color x:Key="SubBorderColor">#c2c4c7</Color>
+
+    <Color x:Key="DefaultColor">#ffffff</Color>
+    <Color x:Key="SuccessColor">#676c73</Color>
+    <Color x:Key="DangerColor">#ff5869</Color>
+    <Color x:Key="WarningColor">#676c73</Color>
+    <Color x:Key="InfoColor">#676c73</Color>
+
+    <Color x:Key="DefaultBtnBgColor">#ffffff</Color>
+    <Color x:Key="DefaultBtnBorderColor">#c42518</Color>
+
+    <Color x:Key="InfoBtnBgColor">#c42518</Color>
+    <Color x:Key="InfoBtnBorderColor">#c42518</Color>
+    <Color x:Key="InfoBtnTextColor">#ffffff</Color>
+
+    <Color x:Key="LabelBaseColor">#c42518</Color>
+    <Color x:Key="LabelSubColor">#8f201d</Color>
+    <Color x:Key="DropDownDefaultText">#000</Color>
+    <Color x:Key="InputPlaceHolderColor">#b6b8b7</Color>
+    <Color x:Key="InputBgColor">#efefef</Color>
+    <Color x:Key="InputBorderColor">#dbdbdb</Color>
+    <Color x:Key="InputTextColor">#c42518</Color>
+    <Color x:Key="NoteBgColor">#d4e9de</Color>
+    <Color x:Key="RelatedProductsBgColor">#c42518</Color>
+    <Color x:Key="RelatedProductsCaretColor">#ffffff</Color>
+    <Color x:Key="RelatedItemImageBorderColor">#791f1a</Color>
+    <Color x:Key="RelatedItemImagePriceColor">#ffffff</Color>
+
+    <Color x:Key="HeaderCategoriesItemDT_BorderColor">#f5d433</Color>
+    <Color x:Key="HeaderCategoriesItemDT_BgColor">#ffffff</Color>
+    <Color x:Key="HeaderCategoriesItemDT_TextColor">#8f201d</Color>
+    <Color x:Key="HeaderCategoriesItemDT_ActiveBgColor">#f5d433</Color>
+    <Color x:Key="HeaderCategoriesItemDT_ActiveTextColor">#8f201d</Color>
+
+    <Color x:Key="Slider_IndicatorColor">#ffe4f0</Color>
+    <Color x:Key="Slider_SelectedIndicatorColor">#ffffff</Color>
+
+    <Color x:Key="OverFlowBgColor">#c2c4c7</Color>
+
+    <Color x:Key="HomeMainListHeaderTabBorderColor">#676c73</Color>
+    <Color x:Key="HomeMainListHeaderBgColor">#ffffff</Color>
+
+    <x:Boolean x:Key="IsHomeItemImgOnly">True</x:Boolean>
+
+    <Color x:Key="PageHeaderTextColor">#8f201d</Color>
+    <Color x:Key="FaqItemtitleColor">#676c73</Color>
+
+    <Color x:Key="OutlineBtnBGColor">Transparent</Color>
+    <Color x:Key="OutlineDisabledBtnBGColor">Transparent</Color>
+    <Color x:Key="OutlineDisabledBtnBorderColor">#a4a7ab</Color>
+    <Color x:Key="OutlineDisabledBtnTextColor">#a4a7ab</Color>
+
+    <Color x:Key="DisabledBtnBGColor">#a4a7ab</Color>
+    <Color x:Key="DisabledBtnBorderColor">#a4a7ab</Color>
+    <Color x:Key="DisabledBtnTextColor">#85898f</Color>
+
+
+    <Color x:Key="BtnDefaultTextColor">#c42518</Color>
+    <Color x:Key="BtnSuccessTextColor">#c42518</Color>
+
+    <Color x:Key="CreateCircleTextColor">#ffffff</Color>
+    <Color x:Key="UploadProfileImgBtnIconColor">#85898f</Color>
+    <Color x:Key="UploadProfileImgBtnTextColor">#85898f</Color>
+    <Color x:Key="UploadProfileImgBtnBgColor">#ffffff</Color>
+    <Color x:Key="InputEyeIconColor">#676c73</Color>
+
+    <Color x:Key="PageSectionBgColor">#ffffff</Color>
+    <Color x:Key="LoyalityPointsTextColor">#85898f</Color>
+
+    <Color x:Key="ProfilePageSectionBgColor">#ffffff</Color>
+    <Color x:Key="ProfilePageSectionTitleColor">#c42518</Color>
+    <Color x:Key="ProfilePageSectionItemTitleColor">#676c73</Color>
+    <Color x:Key="ProfilePageSectionEditIconColor">#ff5869</Color>
+    <Color x:Key="PersonalDetailsLocationItemTemplateTitleColor">#676c73</Color>
+
+    <Color x:Key="XCheckOptionBgColor">#ffffff</Color>
+    <Color x:Key="XCheckOptionCheckedBgColor">#ffffff</Color>
+    <Color x:Key="XCheckOptionCheckedTextColor">#c42518</Color>
+    <Color x:Key="XCheckOptionTextColor">#c42518</Color>
+
+    <Color x:Key="OrderItemBgColor">#ffffff</Color>
+    <Color x:Key="OrderItemPriceColor">#676c73</Color>
+
+    <Color x:Key="ProductListItemTitleColor">#676c73</Color>
+    <Color x:Key="ProductListItemPriceColor">#85898f</Color>
+    <Color x:Key="ProductListItemWhishListIconColor">#85898f</Color>
+    <Color x:Key="ProductListItemTagTextColor">#676c73</Color>
+
+    <Color x:Key="EmptyBagViewTextColor">#c42518</Color>
+    <Color x:Key="BagBgColor">#fbf5f5</Color>
+
+    <Color x:Key="CheckoutBgColor">#fbf5f5</Color>
+
+    <Color x:Key="LocationInputBgColor">#e2e1e2</Color>
+    <Color x:Key="LocationInputBorderColor">#e2e1e2</Color>
+    <Color x:Key="LocationInputPlaceHolderColor">#888b91</Color>
+    <Color x:Key="LocationInputTextColor">#c42518</Color>
+
+
+
+    <Color x:Key="LocationDetailsTextColor">#572627</Color>
+    <Color x:Key="LocationDetailsIconColor">#8f201d</Color>
+    <Color x:Key="LocationDetailsDistanceColor">#c42518</Color>
+
+    <Color x:Key="HomeMainListHeaderTabTextColor">#c42518</Color>
+    <Color x:Key="SearchBarPlaceHolderColor">#c2c4c7</Color>
+    <Color x:Key="SearchBarBorderColor">#c2c4c7</Color>
+
+    <Color x:Key="SocialSectionColor">#676c73</Color>
+
+    <Color x:Key="TabBarItemColor">#ffffff</Color>
+    <Color x:Key="TabBarSelectedItemColor">#f5d433</Color>
+    <Color x:Key="TabBarBgColor">#c42518</Color>
+    <Color x:Key="TabBarTextColor">#ffffff</Color>
+    <Color x:Key="TabBarBadgeTextColor">#c42518</Color>
+    <Color x:Key="BadgeBGColor">#f5d433</Color>
+
+    <Color x:Key="TableNumberSectionNumberColor">#676c73</Color>
+    <Color x:Key="TableNumberSectionMsgLabelColor">#676c73</Color>
+
+    <Color x:Key="HeaderPickerTextColor">#ffffff</Color>
+
+
+    <Color x:Key="PD_ProductNameTextColor">#c42518</Color>
+    <Color x:Key="PD_ProductNameWishListIconColor">#c42518</Color>
+    <Color x:Key="PD_ProductPriceTextColor">#791f1a</Color>
+    <Color x:Key="PD_ProductDescriptionTextColor">#391a1b</Color>
+    <Color x:Key="PD_ProductTagTextColor">#ffffff</Color>
+    <Color x:Key="PD_ProductTagBorderColor">#ffffff</Color>
+
+
+    <Color x:Key="XRadioBtnBorderColor">#f8dbe0</Color>
+    <Color x:Key="XRadioCheckedBtnBorderColor">#f8dbe0</Color>
+    <Color x:Key="XRadioBtnBgColor">#ffffff</Color>
+    <Color x:Key="XRadioCheckedBtnBgColor">#ffffff</Color>
+    <Color x:Key="XRadioBtnIconColor">#676c73</Color>
+    <Color x:Key="XRadioCheckedBtnIconColor">#676c73</Color>
+    <Color x:Key="XRadioBtnLabelColor">#676c73</Color>
+    <Color x:Key="XRadioCheckedBtnLabelColor">#676c73</Color>
+
+
+    <Color x:Key="XQuantityLabelColor">#c42518</Color>
+    <Color x:Key="XQuantityBtnBorderColor">#c42518</Color>
+    <Color x:Key="XQuantityBtnIconColor">#c42518</Color>
+    <Color x:Key="XQuantityDisableBtnBorderColor">#ffffff</Color>
+    <Color x:Key="XQuantityDisableBtnIconColor">#ffffff</Color>
+
+
+    <Color x:Key="InstagramBtnBgColor">#ff5869</Color>
+    <Color x:Key="InstagramBtnTextColor">#ffffff</Color>
+    <Color x:Key="InstagramImgNoteTextColor">#676c73</Color>
+    <Color x:Key="InstagramImgNoteViewTextColor">#ff5869</Color>
+
+
+    <Color x:Key="DialogLightTextColor">#676c73</Color>
+
+    <Color x:Key="BagLoyalityPointsTextColor">#85898f</Color>
+
+    <Color x:Key="ChangeRateSectionBgColor">Transparent</Color>
+    <Color x:Key="ChangeRateSectionPriceTextColor">#676c73</Color>
+    <Color x:Key="SideEntryContainerBgColor">#fbe7ea</Color>
+    <Color x:Key="CheckoutSummaryTotalTextColor">#791f1a</Color>
+    <x:Int16 x:Key="LocationTitleInCheckoutFontSize">18</x:Int16>
+
+    <Color x:Key="CheckoutPageSectionTitleColor">#8f201d</Color>
+    <Color x:Key="CheckoutOrderNumbertextColor">#676c73</Color>
+    <Color x:Key="CheckoutTotalTextColor">#676c73</Color>
+
+
+    <Color x:Key="SliderCloseIconColor">#ffffff</Color>
+    <x:Double x:Key="SliderCloseIconBgOpacity">0.3</x:Double>
+    <x:Double x:Key="OpacityValue">2</x:Double>
+
+
+    <x:Boolean x:Key="HideNavBarTitle">False</x:Boolean>
+
+
+    <x:String x:Key="NavBar1stTitle">HOME</x:String>
+    <x:String x:Key="NavBar2ndTitle">ORDER</x:String>
+    <x:String x:Key="NavBar3rdTitle">BAG</x:String>
+    <x:String x:Key="NavBar4thTitle">FIND A PEPE'S</x:String>
+    <x:String x:Key="NavBar5thTitle">ACCOUNT</x:String>
+
+    <x:String x:Key="LoyalitySchemePageTitle">Loyalty Scheme</x:String>
+    <Color x:Key="LoyalitySchemeDescTextColor">#676c73</Color>
+    <Color x:Key="LoyaltySchemePageSectionBgColor">#ffffff</Color>
+    <Color x:Key="LoyaltySchemePageSectionIconColor">#676c73</Color>
+    <Color x:Key="LoyaltySchemePageSectionTextColor">#676c73</Color>
+    <Color x:Key="LoyalitySchemePoints_BorderColor">Transparent</Color>
+
+    <x:String x:Key="SocialMediaTxt">LET'S GET SOCIAL!</x:String>
+    <x:Boolean x:Key="HeaderHasBackgroundImage">False</x:Boolean>
+
+    <x:Boolean x:Key="IsProductItemSingle">True</x:Boolean>
+    <x:Boolean x:Key="IsUpperCaseLetters">False</x:Boolean>
+    <x:Int32 x:Key="HeaderLettersSpacing">0</x:Int32>
+
+    <!--  Landing Page Image Visibility and BGColor  -->
+    <x:Boolean x:Key="LandingPageImage">False</x:Boolean>
+    <Color x:Key="LandingPageBGColor">#c42518</Color>
+
+    <Color x:Key="SingleItemProductNameColor">#c42518</Color>
+    <Color x:Key="SingleItemProductDescColor">#391a1b</Color>
+    <Color x:Key="SingleItemProductPriceColor">#791f1a</Color>
+    <Color x:Key="SingleItemProductCalorisColor">#85898f</Color>
+    <Color x:Key="ProductsGroupTextColor">#8f201d</Color>
+    <Color x:Key="ProductsGroupGroupBgColor">#fbf5f5</Color>
+    <x:Int32 x:Key="ProductsGridSpan">1</x:Int32>
+
+    <Color x:Key="ProfileBgColor">#fbf5f5</Color>
+
+    <x:Boolean x:Key="IsSolidIcon">True</x:Boolean>
+    <Style x:Key="St_SplashScreen" TargetType="ContentPage">
+        <Setter Property="BackgroundColor" Value="{StaticResource SecondColor}"/>
+    </Style>
+   
+    <!--  -XEntry Label Style Start  -->
+    <Style x:Key="St_XEntryLabel" TargetType="Label">
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="Margin" Value="0,0,0,5" />
+        <Setter Property="HorizontalOptions" Value="StartAndExpand" />
+        <Setter Property="TextColor" Value="{StaticResource EntryLabelTextColor}" />
+        <Setter Property="FontSize" Value="16" />
+    </Style>
+    <!--  -XEntry Label Style End  -->
+
+    
+    <Style x:Key="THM_SignInFlexArea" TargetType="FlexLayout">
+        <Setter Property="Direction" Value="Column" />
+        <Setter Property="JustifyContent" Value="Start" />
+    </Style>
+    <!--  Page Header : Begin  -->
+    <Style Class="Sc_PageHeader" TargetType="StackLayout">
+        <Setter Property="Padding" Value="15,30" />
+    </Style>
+   
+    <x:Int32 x:Key="InformationPageBodyFontSize">18</x:Int32>
+
+    <!--  Page Header : End  -->
+
+    <!--  Loyaity Points : Begin  -->
+    <Style x:Key="St_LoyalityPointsContainer" TargetType="StackLayout">
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="Start" />
+        <Setter Property="Spacing" Value="10" />
+    </Style>
+
+
+    <Style x:Key="ProductItemStyle" TargetType="StackLayout">
+        <Setter Property="HeightRequest" Value="150" />
+    </Style>
+    <!--  Page Info Section : Begin  -->
+    <Style x:Key="St_InfoSection" TargetType="StackLayout">
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="HorizontalOptions" Value="StartAndExpand" />
+    </Style>
+  
+    <!--  Validation Styles : Start  -->
+    <Style Class="HorizontalStack" TargetType="StackLayout">
+        <Setter Property="Padding" Value="5,2,5,0" />
+        <Setter Property="Margin" Value="0,0,0,0" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="Spacing" Value="8" />
+    </Style>
+    <Style Class="MsgLabel" TargetType="Label">
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="StartAndExpand" />
+        <Setter Property="TextColor" Value="{StaticResource DefaultColor}" />
+        <Setter Property="FontSize" Value="12" />
+    </Style>
+    <!--  Validation Styles : End  -->
+
+    <Style x:Key="St_HomeMainListFooter" TargetType="Grid">
+        <Setter Property="BackgroundColor" Value="{DynamicResource FirstColor}" />
+        <Setter Property="VerticalOptions" Value="End" />
+        <Setter Property="RowSpacing" Value="0" />
+        <Setter Property="Padding" Value="35" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+    </Style>
+
+    <x:Int32 x:Key="FooterSocialIconsBarOrder">0</x:Int32>
+    <x:Int32 x:Key="FooterTextOrder">1</x:Int32>
+
+    <Style x:Key="LocationFontWight" TargetType="Label">
+        <Setter Property="FontAttributes" Value="Bold" />
+    </Style>
+
+
+    <!--  Dialog Style  -->
+    <Style Class="Sc_DialogFooterBtn" TargetType="StackLayout">
+        <Setter Property="VerticalOptions" Value="FillAndExpand" />
+        <Setter Property="Grid.Column" Value="0" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="BackgroundColor" Value="{StaticResource DialogFooterBtnBGColor}" />
+    </Style>
+    <Style Class="Sc_DialogFooterCloseBtn" TargetType="StackLayout">
+        <Setter Property="BackgroundColor" Value="#fFffff" />
+        <Setter Property="Grid.Column" Value="1" />
+    </Style>
+
+    <!--  Product Details Page Style  -->
+    <Style x:Key="St_ProductDescContainer" TargetType="Label">
+        <Setter Property="VerticalOptions" Value="FillAndExpand" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="Padding" Value="20,10" />
+    </Style>
+    <Style x:Key="St_ProductDesc" TargetType="Label">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="TextColor" Value="{StaticResource PD_ProductDescriptionTextColor}" />
+    </Style>
+    <Style x:Key="St_NutritionalInfoShortText" TargetType="Label">
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="TextColor" Value="{StaticResource SingleItemProductCalorisColor}" />
+        <Setter Property="Padding" Value="0,5,0,0"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+    </Style>
+
+    <Style x:Key="St_ProductDetailsProductPrice" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource PD_ProductPriceTextColor}" />
+        <Setter Property="FontSize" Value="23" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+    </Style>
+    <Style x:Key="St_LocationTitle" TargetType="Label">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="HorizontalOptions" Value="StartAndExpand" />
+        <Setter Property="TextColor" Value="{StaticResource LocationTitleTextColor}" />
+
+    </Style>
+    <Style x:Key="St_LocationDetailSection" TargetType="StackLayout">
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="Spacing" Value="10" />
+    </Style>
+
+    <!--  Browser  -->
+    <Color x:Key="BrowserPreferredToolbarColor">#c42518</Color>
+    <Color x:Key="BrowserPreferredControlColor">#000</Color>
+
+    <x:Boolean x:Key="IsHomeShortcutHeaderVisible">False</x:Boolean>
+    <x:Boolean x:Key="IsHomeSocialMediaFooterVisible">True</x:Boolean>
+    <x:Boolean x:Key="ShowRecentLocationsText">True</x:Boolean>
+
+    <x:Int32 x:Key="XQuantityBtnDimention">45</x:Int32>
+    
+    <Style x:Key="St_ComponentContainer" TargetType="StackLayout">
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="Spacing" Value="5" />
+    </Style>
+
+    <Style x:Key="St_Quantity" TargetType="Label">
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="WidthRequest" Value="60" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+    </Style>
+    
+    <Style x:Key="HeaderPicker" TargetType="StackLayout">
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="Padding" Value="5" />
+    </Style>
+
+    <Style x:Key="St_ItemOptionSpan" TargetType="Span">
+        <Setter Property="FontSize" Value="18" />
+        <!--<Setter Property="HorizontalOptions" Value="Start" />-->
+        <Setter Property="TextColor" Value="{StaticResource XSelectionIdealLabelTextColor}" />
+        <!--<Setter Property="VerticalOptions" Value="Center" />-->
+        <!--<Setter Property="VerticalTextAlignment" Value="Center" />-->
+    </Style>
+
+
+    <Style TargetType="Entry">
+        <Setter Property="FontSize" Value="16" />
+    </Style>
+
+    <x:Boolean x:Key="IsHomePageTopBarVisible">False</x:Boolean>
+    <x:Boolean x:Key="ProductDetailsHasSeperator">False</x:Boolean>
+
+
+    <Color x:Key="InformationDescription">black</Color>
+
+    <Style x:Key="St_LocationDetails" TargetType="Label">
+        <Setter Property="FontSize" Value="15" />
+        <Setter Property="LineHeight" Value="1.1" />
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="HorizontalOptions" Value="StartAndExpand" />
+        <Setter Property="WidthRequest" Value="320" />
+        <Setter Property="TextColor" Value="{DynamicResource LocationDetailsTextColor}" />
+        <Setter Property="FontAttributes" Value="Bold" />
+
+    </Style>
+    <Style x:Key="St_HomeMainListFooterSocialBar" TargetType="Grid">
+        <Setter Property="BackgroundColor" Value="{StaticResource FirstColor}" />
+        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+        <Setter Property="Padding" Value="0" />
+    </Style>
+    <Style x:Key="St_ScrollViewBackgroundColor" TargetType="ScrollView">
+        <Setter Property="BackgroundColor" Value="{StaticResource ScrollViewColor}" />
+    </Style>
+    <Style x:Key="St_HomeMainListFooterSocialItem" TargetType="Frame">
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="CornerRadius" Value="6" />
+        <Setter Property="BackgroundColor" Value="{StaticResource SocialMediaMessageTextColor}" />
+        <Setter Property="Padding" Value="4" />
+        <Setter Property="HasShadow" Value="False" />
+
+    </Style>
+    <Style x:Key="St_HomeMainListFooterSocialItemFB" TargetType="Frame">
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="CornerRadius" Value="14" />
+        <Setter Property="BackgroundColor" Value="{StaticResource FirstColor}" />
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="HasShadow" Value="False" />
+
+    </Style>
+    <Style x:Key="St_HomeMainListFooterSocialItemInsta" TargetType="Frame">
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+        <Setter Property="CornerRadius" Value="{OnPlatform Android=8, iOS=8}" />
+        <Setter Property="BorderColor" Value="{StaticResource FirstColor}" />
+        <Setter Property="BackgroundColor" Value="Transparent" />
+        <Setter Property="IsClippedToBounds" Value="True" />
+        <!--<Setter Property="BackgroundColor" Value="{StaticResource FirstColor}"/>-->
+        <Setter Property="Padding" Value="0" />
+        <Setter Property="HasShadow" Value="False" />
+
+    </Style>
+    <Style x:Key="St_LocationDistance" TargetType="Frame">
+        <Setter Property="Padding" Value="8,4" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource SecondColor}" />
+        <Setter Property="CornerRadius" Value="15" />
+        <Setter Property="HasShadow" Value="False" />
+        <Setter Property="HorizontalOptions" Value="End" />
+        <Setter Property="VerticalOptions" Value="Start" />
+    </Style>
+    <!--  EmptyBagView Styles  -->
+    <Style x:Key="St_EmptyBagView" TargetType="Grid">
+        <Setter Property="VerticalOptions" Value="FillAndExpand" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+    </Style>
+    <Style x:Key="St_EmptyBagViewIconsContainer" TargetType="Grid">
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="Center" />
+    </Style>
+    <Style x:Key="St_ProductListItemImage" TargetType="Image">
+        <Setter Property="HeightRequest" Value="{Binding Source={RelativeSource Self}, Path=Width}" />
+        <Setter Property="VerticalOptions" Value="FillAndExpand" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="Aspect" Value="AspectFill" />
+    </Style>
+    <Style x:Key="St_ProductListItemTitle" TargetType="Label">
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="FontSize" Value="{DynamicResource ProductItemTitleFontSize}" />
+        <Setter Property="VerticalTextAlignment" Value="Start" />
+        <Setter Property="HorizontalTextAlignment" Value="Start" />
+        <Setter Property="TextColor" Value="{StaticResource ProductListItemTitleColor}" />
+        <Setter Property="LineBreakMode" Value="TailTruncation" />
+        <Setter Property="MaxLines" Value="2" />
+        <Setter Property="HeightRequest" Value="44" />
+    </Style>
+    <Style x:Key="St_ProductListItemFreeTextStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="11" />
+        <Setter Property="HeightRequest" Value="12" />
+        <Setter Property="TextTransform" Value="Default" />
+        <Setter Property="TextColor" Value="{StaticResource FreeProductTextColor}" />
+    </Style>
+    <Style x:Key="St_ProductListItemPrice" TargetType="Label">
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="Start" />
+        <Setter Property="FontSize" Value="{DynamicResource ProductItemPriceFontSize}" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="HorizontalTextAlignment" Value="Start" />
+        <Setter Property="TextColor" Value="{StaticResource ProductListItemPriceColor}" />
+        <Setter Property="HeightRequest" Value="50" />
+    </Style>
+    <Style x:Key="St_ProductListItemWhishListIcon" TargetType="Label">
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="HorizontalOptions" Value="EndAndExpand" />
+        <Setter Property="FontSize" Value="30" />
+        <Setter Property="TextColor" Value="{StaticResource ProductListItemWhishListIconColor}" />
+    </Style>
+    <Style x:Key="St_ProductListItemStatus" TargetType="Span">
+        <Setter Property="TextColor" Value="#fff" />
+        <Setter Property="TextTransform" Value="Uppercase" />
+        <Setter Property="FontSize" Value="13" />
+    </Style>
+    <Style x:Key="St_XSelectionListOuterFrame" TargetType="Frame">
+        <Setter Property="Padding"  Value="0" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource XSelectionFrame_BGColor}" />
+        <Setter Property="BorderColor" Value="{DynamicResource XSelectionFrame_BorderColor}" />
+        <Setter Property="CornerRadius" Value="{DynamicResource XSelectionFrame_BorderRadius}" />
+        <Setter Property="HasShadow" Value="False" />
+        <Setter Property="IsClippedToBounds" Value="True" />
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+    </Style>
+    <Style x:Key="St_XSelectionListInnerFrame" TargetType="Frame">
+        <Setter Property="Padding"  Value="0" />
+        <Setter Property="BackgroundColor" Value="{DynamicResource XSelectionFrame_BGColor}" />
+        <Setter Property="BorderColor" Value="{DynamicResource XSelectionFrame_BorderColor}" />
+        <Setter Property="CornerRadius" Value="{DynamicResource XSelectionFrame_BorderRadius}" />
+        <Setter Property="HasShadow" Value="False" />
+        <Setter Property="IsClippedToBounds" Value="True" />
+        <Setter Property="Margin" Value="1"/>
+        <Setter Property="VerticalOptions" Value="Start" />
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+    </Style>
+    <Style Class="St_LocationDistanceLabel" TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        <Setter Property="TextColor" Value="{StaticResource LocationDetailsDistanceColor}"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="VerticalTextAlignment" Value="Center"/>
+    </Style>
+    <Style x:Key="St_SpecialFormatTextAtMessageEnd" TargetType="Span">
+        <Setter Property="TextColor" Value="{StaticResource SpecialFormatTextAtMessageEndColor}"/>
+    </Style>
+    <Style x:Key="St_ByGiftCardHeader" TargetType="Label">
+        <Setter Property="Margin" Value="0,20,0,15"/>
+        <Setter Property="VerticalOptions" Value="StartAndExpand"/>
+        <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+        <Setter Property="TextColor" Value="{StaticResource SecondColor}"/>
+    </Style>
+    <Style x:Key="St_TableOrderingDesc" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource SixthColor}" />
+        <Setter Property="Margin" Value="15,5,15,5" />
+        <Setter Property="FontSize" Value="16" />
+    </Style>
+    <Style x:Key="St_SectionHeaderPopup" TargetType="Label">
+        <Setter Property="TextColor" Value="{StaticResource SecondColor}" />
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="HorizontalTextAlignment" Value="Start" />
+    </Style>
+    <Style x:Key="St_CheckoutSummary" TargetType="StackLayout">
+        <Setter Property="Padding" Value="15" />
+        <Setter Property="BackgroundColor" Value="{StaticResource FourthColor}" />
+    </Style>
+    <Style x:Key="St_NavBarMainGrid" TargetType="ContentView">
+        <Setter Property="HeightRequest" Value="{OnPlatform Android=110, iOS=130}" />
+
+        <Setter Property="BackgroundColor" Value="{StaticResource FirstColor}" />
+        <Setter Property="Padding" Value="0,0,0,0" />
+        <Setter Property="Margin" Value="0,0,0,0" />
+    </Style>
+    <Style x:Key="NavBarInnerGrid" TargetType="Grid">
+        <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+        <Setter Property="VerticalOptions" Value="FillAndExpand" />
+    </Style>
+    <Style Class="St_NavItemsList" TargetType="StackLayout">
+        <Setter Property="Orientation" Value="Horizontal" />
+        <Setter Property="Spacing" Value="2" />
+        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+        <Setter Property="HorizontalOptions" Value="Start" />
+    </Style>
+    <Style Class="LastList" TargetType="StackLayout">
+        <Setter Property="HorizontalOptions" Value="End" />
+    </Style>
+    
+    <Style x:Key="St_XNavBarIconItemContainer" TargetType="Frame">
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource FirstColor}"/>
+        <Setter Property="BorderColor" Value="{DynamicResource HeaderButtonBorderColor}"/>
+        <Setter Property="CornerRadius" Value="{DynamicResource HeaderBtnCornerRadius}"/>
+        <Setter Property="HasShadow" Value="False"/>
+        <Setter Property="HeightRequest" Value="{DynamicResource HeaderButtonDimension}"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="WidthRequest" Value="{DynamicResource HeaderButtonDimension}"/>
+    </Style>
+    <Style x:Key="St_NavBarTitle" TargetType="Label">
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="IsVisible" Value="True" />
+        <Setter Property="TextColor" Value="{DynamicResource ThirdColor}" />
+        <Setter Property="FontSize" Value="20" />
+        <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="Grid.Row" Value="0" />
+        <Setter Property="Grid.Column" Value="1" />
+    </Style>
+
+    <!--  Header Picker Style  -->
+    <Style x:Key="HeaderPickerText" TargetType="Label">
+        <Setter Property="FontSize" Value="14" />
+        <Setter Property="VerticalOptions" Value="Center" />
+        <Setter Property="TextColor" Value="{StaticResource HeaderPickerTextColor}" />
+    </Style>
+
+</ResourceDictionary>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="NavbarRoot"
+             x:Class="MauiApp1.Components.NavBar"
+             Style="{DynamicResource St_NavBarMainGrid}">
+    <VerticalStackLayout Margin="0" Padding="0">
+        <Label 
+            Text="{Binding NavBarTitle, Source={x:Reference NavbarRoot}}"
+            Style="{DynamicResource St_NavBarTitle}"
+            HorizontalOptions="Center"
+            />
+        <Label 
+             Text="{Binding LocationTitle, Source={x:Reference NavbarRoot}}"
+             Style="{DynamicResource HeaderPickerText}"
+             HorizontalOptions="Center"
+             />
+    </VerticalStackLayout>
+</ContentView>
